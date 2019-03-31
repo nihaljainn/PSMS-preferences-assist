@@ -91,6 +91,7 @@ function bringToLast(src)
 }
 
 /*
+For verifying if all rows are unique
 c = 0;
 for(i=0;i<allStations.length;i++)
 {
