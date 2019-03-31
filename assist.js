@@ -99,9 +99,7 @@ for(i=0;i<allStations.length;i++)
     {
         sname1 = allStations[i].getElementsByClassName('spanclass')[0].textContent;
         sname2 = allStations[j].getElementsByClassName('spanclass')[0].textContent;
-		if(c<4&&i==20)
-			console.log(sname1+' '+sname2);
-        if(sname1===sname2)
+        if(sname1==sname2)
             console.log('lag gayi bhai');
 		else
 			c++;
